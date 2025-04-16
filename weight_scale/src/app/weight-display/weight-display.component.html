@@ -1,0 +1,17 @@
+<div class="container">
+    <h2>Weight Scale Reading</h2>
+    <p class="weight">{{ weight }}</p>
+  
+    <h3>Recent Weights</h3>
+    <table>
+      <tr>
+        <th>Weight (kg)</th>
+        <th>Timestamp</th>
+      </tr>
+      <tr *ngFor="let entry of weightHistory">
+        <td>{{ entry.weight_value }}</td>
+        <td>{{ entry.timestamp }}</td>
+      </tr>
+    </table>
+  </div>
+  

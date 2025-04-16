@@ -1,0 +1,12 @@
+.container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  
+  .weight {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
